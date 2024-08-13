@@ -1,4 +1,4 @@
-# autoDocstringPy: VSCode Python Docstring Generator
+# autoDocstringPy: A fork of autoDocstring, the VSCode Python Docstring Generator
 
 Visual Studio Code extension to quickly generate docstrings for python functions.
 This is a fork of the [autoDocstring](https://github.com/NilsJPWerner/autoDocstring) since the original does not appear to be accepting
@@ -50,7 +50,7 @@ This extension contributes the following settings:
 
 ## Custom Docstring Templates
 
-This extension now supports custom templates. The extension uses the [mustache.js](https://github.com/janl/mustache.js/) templating engine. To use a custom template create a .mustache file and specify its path using the `customTemplatePath` configuration. View the included google docstring [template](src/docstring/templates/google.mustache) for a usage example. The following tags are available for use in custom templates.
+This extension now supports custom templates. The extension uses the [mustache.js](https://github.com/janl/mustache.js/) templating engine. To use a custom template create a `.mustache` file and specify its path using the `customTemplatePath` configuration. View the included google docstring [template](src/docstring/templates/google.mustache) for a usage example. The following tags are available for use in custom templates.
 
 ### Variables
 
@@ -130,13 +130,13 @@ Check the [CHANGELOG.md](CHANGELOG.md) for any version changes.
 
 ## Reporting issues
 
-Report any issues on the github [issues](https://github.com/NilsJPWerner/autoDocstring/issues) page. Follow the template and add as much information as possible.
+Report any issues on the github [issues](https://github.com/sunipkm/autoDocstring/issues) page. Follow the template and add as much information as possible.
 
 ## Contributing
 
-The source code for this extension is hosted on [GitHub](https://github.com/NilsJPWerner/autoDocstring). Contributions, pull requests, suggestions, and bug reports are greatly appreciated.
+The source code for this extension is hosted on [GitHub](https://github.com/sunipkm/autoDocstringPy). Contributions, pull requests, suggestions, and bug reports are greatly appreciated.
 
--   Post any issues and suggestions to the github [issues page](https://github.com/NilsJPWerner/autoDocstring/issues). Add the `feature request` tag to any feature requests or suggestions.
+-   Post any issues and suggestions to the github [issues page](https://github.com/sunipkm/autoDocstring/issues). Add the `feature request` tag to any feature requests or suggestions.
 -   To contribute, fork the project and then create a pull request back to master. Please update the README if you make any noticeable feature changes.
 -   There is no official contribution guide or code of conduct yet, but please follow the standard open source norms and be respectful in any comments you make.
 
